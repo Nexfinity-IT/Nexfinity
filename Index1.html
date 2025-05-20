@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexfinity | IT Infrastructure Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.png" />
+  <style>
+    body {
+      background-color: #0f172a;
+    }
+  </style>
+</head>
+<body class="font-sans text-white">
+
+  <!-- Header -->
+<header class="bg-[#0f172a] py-7 px-00">
+  <div class="overflow-hidden w-[550px] h-[100px]">
+    <img src="logo.png" alt="Nexfinity Logo"
+         class="w-full h-full object-cover scale-125" />
+  </div>
+</header>
+
+
+
+
+  <!-- Hero Section -->
+  <section class="text-center py-24 px-4 bg-gradient-to-b from-[#1e293b] to-[#0f172a]">
+    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Built for Performance.<br />Driven by Precision.</h1>
+    <p class="text-xl text-gray-400 mb-8">Nexfinity delivers elite IT infrastructure with speed and reliability.</p>
+    <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">Contact Us</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-5xl mx-auto py-20 px-6 text-center">
+    <h2 class="text-3xl font-semibold text-white mb-6">About Us</h2>
+    <p class="text-lg text-gray-300 leading-loose">
+      We’re Nexfinity – a dedicated IT infrastructure company built on speed, accuracy, and trusted performance.
+      Backed by real-world experience and certifications, we’re the go-to team for structured cabling,
+      server room builds, printer and storage management, and full-stack tech support.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-[#1e293b] py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-10">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-200">
+        <div class="bg-[#0f172a] p-6 rounded-xl shadow-lg hover:shadow-xl transition border border-blue-800">
+          <h3 class="text-xl font-semibold mb-2">Cable Management</h3>
+          <p>Structured, clean, and efficient cable installations and optimizations.</p>
+        </div>
+        <div class="bg-[#0f172a] p-6 rounded-xl shadow-lg hover:shadow-xl transition border border-blue-800">
+          <h3 class="text-xl font-semibold mb-2">Server Room Services</h3>
+          <p>From planning to execution, we build and maintain high-performance server environments.</p>
+        </div>
+        <div class="bg-[#0f172a] p-6 rounded-xl shadow-lg hover:shadow-xl transition border border-blue-800">
+          <h3 class="text-xl font-semibold mb-2">Printer Management</h3>
+          <p>Reliable, centralized printing solutions and hardware support.</p>
+        </div>
+        <div class="bg-[#0f172a] p-6 rounded-xl shadow-lg hover:shadow-xl transition border border-blue-800">
+          <h3 class="text-xl font-semibold mb-2">Storage Solutions</h3>
+          <p>Custom storage architectures to scale your data securely and efficiently.</p>
+        </div>
+        <div class="bg-[#0f172a] p-6 rounded-xl shadow-lg hover:shadow-xl transition border border-blue-800">
+          <h3 class="text-xl font-semibold mb-2">Rack & Patch Panel Setup</h3>
+          <p>Clean, labeled, and logically structured infrastructure installations.</p>
+        </div>
+        <div class="bg-[#0f172a] p-6 rounded-xl shadow-lg hover:shadow-xl transition border border-blue-800">
+          <h3 class="text-xl font-semibold mb-2">Certified & Insured</h3>
+          <p>Our team holds essential industry certifications and safety clearances.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-10">Project Highlights</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <img src="gallery/image1.jpg" alt="Work 1" class="rounded-lg shadow-md object-cover h-64 w-full" />
+        <img src="gallery/image2.jpg" alt="Work 2" class="rounded-lg shadow-md object-cover h-64 w-full" />
+        <img src="gallery/image3.jpg" alt="Work 3" class="rounded-lg shadow-md object-cover h-64 w-full" />
+        <!-- Add more images as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-[#1e293b] py-20 px-6">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold text-white mb-6">Let’s Work Together</h2>
+      <form class="space-y-4 text-left">
+        <input type="text" placeholder="Name" class="w-full p-3 rounded-lg bg-[#0f172a] border border-gray-600 text-white placeholder-gray-400" />
+        <input type="email" placeholder="Email" class="w-full p-3 rounded-lg bg-[#0f172a] border border-gray-600 text-white placeholder-gray-400" />
+        <textarea rows="4" placeholder="Message" class="w-full p-3 rounded-lg bg-[#0f172a] border border-gray-600 text-white placeholder-gray-400"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 w-full transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 text-sm bg-[#0f172a]">
+    © <span id="year"></span> Nexfinity. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
